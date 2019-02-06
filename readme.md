@@ -3,4 +3,4 @@ SPではメニューバーが出たりするので、単純にresizeイベント
 なので、横幅が変わった時だけ高さを揃えるようにする
 
 # DEMO
-https://yuki-sakaguchi.github.io/header-window-height/
+https://yuki-sakaguchi.github.io/header-window-height/index.html
