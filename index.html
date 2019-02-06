@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Headerの高さをWindowの高さに固定する</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <style>
+      .header {
+        background-color: white;
+      }
+      .section {
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+      }
+      .section:nth-child(2) {
+        background-color: #aaa;
+      }
+      .section:nth-child(3) {
+        background-color: #888;
+      }
+      .section:nth-child(4) {
+        background-color: #555;
+      }
+      .section:nth-child(5) {
+        background-color: #333;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header section">
+      <h1>Headerの高さをWindowの高さに固定する</h1>
+    </header>
+    <section class="section">
+      <h2>SECTION</h2>
+    </section>
+    <section class="section">
+      <h2>SECTION</h2>
+    </section>
+    <section class="section">
+      <h2>SECTION</h2>
+    </section>
+    <section class="section">
+      <h2>SECTION</h2>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
